@@ -1,0 +1,12 @@
+pkgname = "mergiraf"
+pkgver = "0.15.0"
+pkgrel = 0
+build_style = "cargo"
+hostmakedepends = ["cargo-auditable"]
+makedepends = ["rust-std"]
+checkdepends = ["git"]
+pkgdesc = "Syntax-aware git merge driver"
+license = "GPL-3.0-only"
+url = "https://mergiraf.org"
+source = f"https://codeberg.org/mergiraf/mergiraf/archive/v{pkgver}.tar.gz"
+sha256 = "75f553935df38dd84679727fe3b3232d54ed4a9fe6ca214e3fd54ac714d0fae3"
